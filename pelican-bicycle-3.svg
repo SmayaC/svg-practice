@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Pelican riding a bicycle - cartoon style</title>
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="#87CEEB"/>
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="55" fill="#FFD700"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="100" rx="70" ry="25" fill="white"/>
+  <ellipse cx="200" cy="115" rx="50" ry="20" fill="white"/>
+  <!-- Ground -->
+  <rect width="800" height="60" fill="#90EE90" y="540"/>
+  <!-- Bicycle wheels -->
+  <g stroke="#333" stroke-width="8" fill="none">
+    <circle cx="250" cy="460" r="85"/>
+    <circle cx="550" cy="460" r="85"/>
+  </g>
+  <g stroke="#666" stroke-width="2">
+    <line x1="250" y1="460" x2="250" y2="380"/>
+    <line x1="250" y1="460" x2="330" y2="510"/>
+    <line x1="250" y1="460" x2="170" y2="510"/>
+    <line x1="250" y1="460" x2="250" y2="540"/>
+    <line x1="550" y1="460" x2="550" y2="380"/>
+    <line x1="550" y1="460" x2="630" y2="510"/>
+    <line x1="550" y1="460" x2="470" y2="510"/>
+    <line x1="550" y1="460" x2="550" y2="540"/>
+  </g>
+  <circle cx="250" cy="460" r="10" fill="#555"/>
+  <circle cx="550" cy="460" r="10" fill="#555"/>
+  <!-- Bicycle frame -->
+  <g stroke="#E63946" stroke-width="10" stroke-linecap="round" fill="none">
+    <line x1="250" y1="460" x2="400" y2="460"/>
+    <line x1="400" y1="460" x2="480" y2="340"/>
+    <line x1="480" y1="340" x2="550" y2="460"/>
+    <line x1="400" y1="460" x2="350" y2="340"/>
+    <line x1="350" y1="340" x2="480" y2="340"/>
+  </g>
+  <!-- Seat -->
+  <line x1="330" y1="340" x2="350" y2="340" stroke="#333" stroke-width="10" stroke-linecap="round"/>
+  <rect x="310" y="315" width="60" height="18" rx="9" fill="#333"/>
+  <!-- Handlebars -->
+  <line x1="480" y1="340" x2="500" y2="290" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <line x1="480" y1="290" x2="520" y2="290" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <!-- Pedal -->
+  <circle cx="400" cy="460" r="18" fill="none" stroke="#333" stroke-width="6"/>
+  <line x1="400" y1="460" x2="380" y2="490" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+  <rect x="360" y="488" width="40" height="12" rx="3" fill="#333"/>
+  <!-- Pelican tail -->
+  <polygon points="270,320 210,300 225,335 215,345 275,345" fill="#D9D9D9" stroke="#333" stroke-width="2"/>
+  <!-- Pelican legs -->
+  <g stroke="#F4A261" stroke-width="10" stroke-linecap="round">
+    <line x1="360" y1="380" x2="385" y2="475"/>
+    <line x1="390" y1="385" x2="410" y2="430"/>
+  </g>
+  <!-- Pelican feet -->
+  <ellipse cx="385" cy="484" rx="18" ry="8" fill="#F4A261"/>
+  <ellipse cx="415" cy="435" rx="15" ry="7" fill="#F4A261"/>
+  <!-- Pelican body -->
+  <ellipse cx="370" cy="340" rx="100" ry="65" fill="white" stroke="#333" stroke-width="4"/>
+  <!-- Wing -->
+  <ellipse cx="360" cy="340" rx="60" ry="38" fill="#E9ECEF" stroke="#333" stroke-width="3"/>
+  <path d="M 320 340 Q 360 360 400 335" fill="none" stroke="#ADB5BD" stroke-width="3"/>
+  <!-- Neck -->
+  <path d="M 440 310 C 460 260 465 220 450 180" fill="none" stroke="white" stroke-width="38" stroke-linecap="round"/>
+  <path d="M 440 310 C 460 260 465 220 450 180" fill="none" stroke="#333" stroke-width="42" stroke-linecap="round" opacity="0.15"/>
+  <path d="M 427 305 C 447 257 452 220 438 183" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Head -->
+  <ellipse cx="443" cy="160" rx="38" ry="32" fill="white" stroke="#333" stroke-width="4"/>
+  <!-- Crest feathers -->
+  <path d="M 415 140 Q 395 125 385 105 Q 405 110 418 125 Z" fill="#E9ECEF" stroke="#333" stroke-width="2"/>
+  <!-- Eye -->
+  <circle cx="455" cy="155" r="7" fill="#333"/>
+  <circle cx="457" cy="153" r="2.5" fill="white"/>
+  <!-- Big beak with pouch -->
+  <path d="M 475 155 L 610 185 L 475 195 Z" fill="#FF9F1C" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 480 190 L 590 186 Q 540 220 490 205 Z" fill="#FFBF69" stroke="#333" stroke-width="3"/>
+  <line x1="475" y1="165" x2="605" y2="185" stroke="#333" stroke-width="2"/>
+  <!-- Wing holding handlebar -->
+  <path d="M 380 330 Q 440 330 490 295" fill="none" stroke="white" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 380 330 Q 440 330 490 295" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="495" cy="292" r="10" fill="#F4A261" stroke="#333" stroke-width="3"/>
+  <!-- Motion lines -->
+  <g stroke="#ADB5BD" stroke-width="4" stroke-linecap="round">
+    <line x1="120" y1="400" x2="180" y2="400"/>
+    <line x1="100" y1="430" x2="170" y2="430"/>
+    <line x1="120" y1="460" x2="180" y2="460"/>
+  </g>
+</svg>
