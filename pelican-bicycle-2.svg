@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Pelican riding a bicycle - side view</title>
+  <!-- Background -->
+  <rect width="800" height="600" fill="#87CEEB"/>
+  <ellipse cx="400" cy="560" rx="320" ry="25" fill="#D0E8D0"/>
+  <circle cx="100" cy="80" r="60" fill="#FFE66D"/>
+  <!-- Sun -->
+  <circle cx="700" cy="80" r="50" fill="#FFB347"/>
+  <circle cx="720" cy="60" r="15" fill="white"/>
+  <circle cx="740" cy="50" r="8" fill="yellow"/>
+  <!-- Ground -->
+  <rect width="800" height="40" fill="#7CFC00" rx="5"/>
+  <!-- Bicycle wheels -->
+  <g stroke="#333" stroke-width="8" fill="none">
+    <circle cx="280" cy="480" r="85"/>
+    <circle cx="560" cy="480" r="85"/>
+  </g>
+  <g stroke="#555" stroke-width="3">
+    <line x1="280" y1="480" x2="280" y2="400"/>
+    <line x1="280" y1="480" x2="360" y2="530"/>
+    <line x1="280" y1="480" x2="200" y2="530"/>
+    <line x1="280" y1="480" x2="280" y2="560"/>
+    <line x1="560" y1="480" x2="560" y2="400"/>
+    <line x1="560" y1="480" x2="640" y2="530"/>
+    <line x1="560" y1="480" x2="480" y2="530"/>
+    <line x1="560" y1="480" x2="560" y2="560"/>
+  </g>
+  <circle cx="280" cy="480" r="12" fill="#555"/>
+  <circle cx="560" cy="480" r="12" fill="#555"/>
+  <!-- Bicycle frame -->
+  <g stroke="#E63946" stroke-width="11" stroke-linecap="round" fill="none">
+    <line x1="280" y1="480" x2="420" y2="480"/>
+    <line x1="420" y1="480" x2="500" y2="360"/>
+    <line x1="500" y1="360" x2="560" y2="480"/>
+    <line x1="420" y1="480" x2="370" y2="360"/>
+    <line x1="370" y1="360" x2="500" y2="360"/>
+  </g>
+  <!-- Seat -->
+  <line x1="350" y1="360" x2="370" y2="360" stroke="#333" stroke-width="10" stroke-linecap="round"/>
+  <rect x="330" y="335" width="55" height="20" rx="10" fill="#333"/>
+  <!-- Handlebars -->
+  <line x1="500" y1="360" x2="580" y2="320" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <line x1="580" y1="320" x2="620" y2="320" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <!-- Pedal -->
+  <circle cx="420" cy="480" r="20" fill="none" stroke="#333" stroke-width="7"/>
+  <line x1="420" y1="480" x2="400" y2="510" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="380" y="528" width="45" height="14" rx="4" fill="#333"/>
+  <!-- Pelican body -->
+  <ellipse cx="420" cy="360" rx="110" ry="70" fill="white" stroke="#333" stroke-width="5"/>
+  <!-- Wing -->
+  <ellipse cx="410" cy="360" rx="65" ry="40" fill="#E9ECEF" stroke="#333" stroke-width="3"/>
+  <path d="M 370 360 Q 410 380 450 355" fill="none" stroke="#ADB5BD" stroke-width="3"/>
+  <!-- Neck -->
+  <path d="M 500 330 C 530 250 540 200 500 150" fill="none" stroke="white" stroke-width="38" stroke-linecap="round"/>
+  <path d="M 500 330 C 530 250 540 200 500 150" fill="none" stroke="#333" stroke-width="42" stroke-linecap="round" opacity="0.15"/>
+  <path d="M 485 310 C 505 255 515 210 495 175" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Head -->
+  <ellipse cx="530" cy="150" rx="42" ry="35" fill="white" stroke="#333" stroke-width="5"/>
+  <!-- Eye -->
+  <circle cx="545" cy="148" r="9" fill="#333"/>
+  <circle cx="548" cy="146" r="3" fill="white"/>
+  <!-- Beak -->
+  <path d="M 580 140 L 680 170 L 580 180 Z" fill="#FF9F1C" stroke="#333" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 590 175 L 660 165 Q 610 200 570 185 Z" fill="#FFBF69" stroke="#333" stroke-width="3"/>
+  <line x1="580" y1="150" x2="665" y2="170" stroke="#333" stroke-width="2"/>
+  <!-- Tail -->
+  <polygon points="400,350 340,330 355,365 345,375 405,375" fill="#D9D9D9" stroke="#333" stroke-width="2"/>
+  <!-- Legs -->
+  <g stroke="#F4A261" stroke-width="11" stroke-linecap="round">
+    <line x1="440" y1="400" x2="470" y2="530"/>
+    <line x1="470" y1="405" x2="495" y2="485"/>
+  </g>
+  <ellipse cx="475" cy="538" rx="20" ry="9" fill="#F4A261"/>
+  <ellipse cx="505" cy="495" rx="18" ry="8" fill="#F4A261"/>
+  <!-- Motion lines -->
+  <g stroke="#778899" stroke-width="4" stroke-linecap="round">
+    <line x1="80" y1="450" x2="150" y2="450"/>
+    <line x1="60" y1="480" x2="140" y2="480"/>
+    <line x1="80" y1="510" x2="150" y2="510"/>
+  </g>
+</svg>
